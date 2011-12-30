@@ -16,8 +16,7 @@ hnet.on('level::*', function(nodes, options){
 //
 hnet.load(['http://hnet.iriscouch.com/public/0', 
            'https://raw.github.com/gist/01889d7e9e8cc35375c8/9e26dfeeb6e641a33dae4961196235bdb965b21b/h',
-           'https://raw.github.com/gist/697ffae7ed038c2f12f9/7d93ea8a75af4b167641ae2db8a7567f23dfd546/h0',
+           'https://raw.github.com/gist/697ffae7ed038c2f12f9/2617d48408d6e30f5c4b0316d9892e564dd0c951/h0',
            'http://hnet.iriscouch.com/public/1',
            'http://hnet.iriscouch.com/public/2',
            ]);
-
