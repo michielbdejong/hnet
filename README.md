@@ -13,18 +13,18 @@ var hnet = require('hnet');
 //
 hnet.load(['http://hnet.iriscouch.com/public/0', 'https://gist.github.com/01889d7e9e8cc35375c8', 'http://hnet.iriscouch.com/public/1']);
 
-hnet.on('loaded', function(set){
-  console.log('just loaded data set from ', set);
+hnet.on('load', function(set){
+  console.log('just load data set from ', set);
 });
 
 hnet.on('ready', function(){
-  console.log('all data sets have been loaded');
+  console.log('all data sets have been load');
   console.log(hnet.get());
 });
 
 //
-// Get will always work, regardless of how many sets are loaded.
-// If no data sets have been loaded, get will just not return any data
+// Get will always work, regardless of how many sets are load.
+// If no data sets have been load, get will just not return any data
 //
 console.log(hnet.get());
 

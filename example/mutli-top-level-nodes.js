@@ -2,14 +2,12 @@ var Hnet = require('../lib/hnet').Hnet;
 
 var hnet = new Hnet();
 
-hnet.on('loaded', function (node, data) {
-//  console.log('just loaded data set from ', node.uri);
-  //console.log(hnet.get());
-  
+hnet.on('node', function (node, data, options) {
+  console.log('level::' + options.currentDepth + '::' + node.uri);
 });
 
-hnet.on('ready', function(){
-  console.log('all data sets have been loaded, here if your data: \n');
+hnet.on('level::*', function(nodes, options){
+  console.log('level::' + this.event.split('::')[1] + '::loaded');
   console.log(JSON.stringify(hnet.get(), true, 2));
 });
 
