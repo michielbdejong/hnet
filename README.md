@@ -46,6 +46,7 @@ console.log(hnet.get());
 ```
 { "foo": "boo", "something": ["a","b","c"] }
 { "method": "link", params: [ { "type": "couch", "uri": "http://hnet.iriscouch.com/public/0"} ] }
+{ "method": "link", params: [ { "type": "gist",  "uri": "http://hnet.iriscouch.com/public/0"}, "cypher":"CaesarZalgo" ] }
 { "foo": "bar", "tar": "val" }
 ```
 
@@ -55,3 +56,32 @@ console.log(hnet.get());
 #### params: type, uri
 
 **the link method indicates that we should lazily link this document from a remote dataset**
+
+## hnet protocol params
+
+### type
+#### the type of dataset we are going to load
+
+**ex: couch, gist, imgur, irc, etc..**
+
+### uri
+#### the uri of the dataet. i.e., the location
+
+**ex: http://hnet.iriscouch.com/0**
+
+### cypher ( optional )
+#### the cryptology cypher the dataset is encoded in
+
+**ex: CaesarZalgo**
+
+
+# TODO:
+
+Add additional engines for:
+
+ - PasteBin
+ - Image Stenography
+ - Reddit
+ - Imgur
+ - Hacker News deadlink jail
+
