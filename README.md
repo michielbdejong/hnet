@@ -34,7 +34,6 @@ For now, see examples: https://github.com/Marak/hnet/tree/master/example
 [
   { "foo": "boo", "something": ["a","b","c"] },
   { "method": "link", params: [ { "type": "couch", "uri": "http://hnet.iriscouch.com/public/0"} ] },
-  { "method": "link", params: [ { "type": "gist",  "uri": "http://hnet.iriscouch.com/public/0"} ] },
   { "foo": "bar", "tar": "val" }
 ]
 ```
