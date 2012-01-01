@@ -2,7 +2,6 @@
 // Super basic application that uses an hnet client
 //
 
-
 var http = require('http'),
     Hnet = require('../../lib/hnet').Hnet;
 
@@ -14,6 +13,6 @@ hnet.load();
 
 
 http.createServer(function(req, res){
-  res.write(JSON.stringify(hnet.get()));
+  res.write(JSON.stringify(hnet.get(), true, 2));
   res.end();
 }).listen(9999);

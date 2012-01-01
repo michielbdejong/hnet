@@ -14,5 +14,5 @@ hnet.on('level::*', function(nodes, options){
 //
 // Will start lazy loading sources
 //
-hnet.load(['http://hnet.iriscouch.com/public/0']);
+hnet.load(['http://hnet.iriscouch.com/public/9f837517018addead7fa767f97011248']);
 

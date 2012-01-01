@@ -5,12 +5,14 @@ var hnet = new Hnet({
 });
 
 hnet.on('node', function (node, data, options) {
-  console.log('level::' + options.currentDepth + '::' + node.uri);
+  // loaded a node !!!
+  // console.log(this.event);
+
 });
 
-hnet.on('level::*', function(nodes, options){
-  console.log('level::' + this.event.split('::')[1] + '::loaded');
-  console.log(JSON.stringify(hnet.get(), true, 2));
+hnet.on('level::*', function(nodes, options) {
+  // loaded an entire level of nodes !
+  // console.log(this.event);
 });
 
 //
