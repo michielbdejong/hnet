@@ -62,9 +62,8 @@ For now, see examples: https://github.com/Marak/hnet/tree/master/example
 
 # TODO:
 
-* Finish pluggable crypto system
-* Create basic implementation for `Hnet.set`
-* Add additional engines for:
+- Finish pluggable crypto system
+- Add additional engines for:
  - Image Stenography
  - PasteBin
  - Reddit
