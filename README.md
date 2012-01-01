@@ -31,7 +31,7 @@
 
 ### Client receives data from many nodes
 
-<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/circular-propigations.png"></img>
+<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/circular-propigation.png"></img>
 
 ### Circular node linking is supported through a TTL ( Time to Live )
 
