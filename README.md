@@ -99,3 +99,4 @@ For now, you can find many examples of usage here: <a href="https://github.com/h
  - Hacker News deadlink jail
  - Twitter
  - IRC
+- Add pluggable item de-duplication engine
