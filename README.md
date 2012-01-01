@@ -33,7 +33,7 @@
 
 <img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/circular-propigation.png"></img>
 
-### Circular node linking is supported through a TTL ( Time to Live )
+### Circular node linking is supported through a TTL ( Time To Live )
 
 <img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/saving-data.png"></img>
 
