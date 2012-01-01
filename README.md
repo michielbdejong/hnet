@@ -1,32 +1,24 @@
-# hnet - a distributed, decentralized, and somewhat anonymous database
+# hnet - an experimental decentralized and anonymous database
 
-## hnet spreads small amounts of data across several engines
+## hnet spreads small amounts of data across several non-traditional storage engines such as images, gists, pastebin, twitter streams, irc chat rooms, etc...
 
-It's good for distributing things like ip routing tables
+### hnet is ideal for distributing small amounts of state anonymously. By design, it is not reliable, fast, or consistent. 
 
-## Usage
+### An ideal use-case for hnet would be storing sets of IP addresses and ports for servers.
 
-var hnet = require('hnet');
+# How does it work?
 
-//
-// Will start lazy loading sources
-//
-hnet.load(['http://hnet.iriscouch.com/public/0', 'https://gist.github.com/01889d7e9e8cc35375c8', 'http://hnet.iriscouch.com/public/1']);
+*hnet uses couchiris at top*
 
-hnet.on('load', function(set){
-  console.log('just load data set from ', set);
-});
+*img of db layout*
 
-hnet.on('ready', function(){
-  console.log('all data sets have been load');
-  console.log(hnet.get());
-});
+*another img of client getting data*
 
-//
-// Get will always work, regardless of how many sets are load.
-// If no data sets have been load, get will just not return any data
-//
-console.log(hnet.get());
+*description of data format*
+
+*basic linking*
+
+*basic circular dep linking*
 
 
 ## hnet protocol
@@ -77,11 +69,13 @@ console.log(hnet.get());
 
 # TODO:
 
-Add additional engines for:
-
- - PasteBin
+* Finish pluggable crypto system
+* Create basic implementation for `Hnet.set`
+* Add additional engines for:
  - Image Stenography
+ - PasteBin
  - Reddit
  - Imgur
  - Hacker News deadlink jail
-
+ - Twitter
+ - IRC
