@@ -43,7 +43,7 @@
 
 For now, see examples: https://github.com/Marak/hnet/tree/master/example
 
-<a href="https://github.com/Marak/hnet/tree/master/example/sample-hnet-application/server.js">There is also a basic http server example which will response to http requests with `hnet` data</a>
+<a href="https://github.com/Marak/hnet/tree/master/examples/sample-hnet-application/server.js">There is also a basic http server example which will response to http requests with `hnet` data</a>
 
 ## the hnet protocol is JSON
 
