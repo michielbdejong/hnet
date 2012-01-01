@@ -1,0 +1,21 @@
+{
+  "author": "Marak <marak.squires@gmail.com>",
+  "name": "hnet",
+  "description": "a decentralized, distributed, anonymous database",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Marak/hnet.git"
+  },
+  "engines": {
+    "node": "~0.4.12"
+  },
+  "dependencies": {
+    "request": "*",
+    "eventemitter2": "*",
+    "util": "*",
+    "async": "*",
+    "colors": "*"
+  },
+  "devDependencies": {}
+}
