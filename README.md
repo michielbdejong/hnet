@@ -38,7 +38,7 @@
 
 # Usage
 
-For now, you can find many examples of usage here: <a href="https://github.com/hookio/hnet/tree/master/examples/sample-hnet-application/server.js">hnet api examples</a>
+For now, you can find many examples of usage here: <a href="https://github.com/hookio/hnet/tree/master/examples/">hnet api examples</a>
 
 <a href="https://github.com/hookio/hnet/tree/master/examples/sample-hnet-application/server.js">There is also a basic http server example which will response to http requests with `hnet` data</a>
 
