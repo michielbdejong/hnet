@@ -2,9 +2,9 @@
 
 ## hnet spreads small amounts of data across several non-traditional storage engines such as images, gists, pastebin, twitter streams, irc chat rooms, etc...
 
-### hnet is ideal for distributing small amounts of state anonymously. By design, it is not reliable, fast, or consistent. 
+## By design, it is not reliable, fast, or consistent. 
 
-### An ideal use-case for hnet would be storing sets of IP addresses and ports for servers.
+### An ideal use-case for hnet would be storing tuples of server IP addresses and ports.
 
 # How does it work?
 
