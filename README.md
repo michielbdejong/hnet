@@ -37,7 +37,7 @@
 
 <img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/saving-data.png"></img>
 
-### Hnet saves will always create a new node and link back to at least two nodes
+### Saving data creates a new node that links back to at least two existing nodes
 
 # Usage
 
