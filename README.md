@@ -91,7 +91,7 @@ For now, you can find many examples of usage here: <a href="https://github.com/h
 
 - Finish pluggable crypto system
 - Add additional engines for:
- - Image Stenography
+ - Image Steganography
  - PasteBin
  - Reddit
  - Imgur
