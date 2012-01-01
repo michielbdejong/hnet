@@ -1,5 +1,3 @@
-
-
 # hnet - an experimental decentralized and anonymous database
 
 ## hnet spreads small amounts of data across several non-traditional storage engines such as images, gists, pastebin, twitter streams, irc chat rooms, etc...
@@ -41,7 +39,7 @@
 
 # Usage
 
-For now, see examples: https://github.com/Marak/hnet/tree/master/example
+For now, you can find many examples of usage here: <a href="https://github.com/Marak/hnet/tree/master/examples/sample-hnet-application/server.js">hnet api examples</a>
 
 <a href="https://github.com/Marak/hnet/tree/master/examples/sample-hnet-application/server.js">There is also a basic http server example which will response to http requests with `hnet` data</a>
 
