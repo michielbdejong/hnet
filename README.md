@@ -79,7 +79,7 @@ For now, you can find many examples of usage here: <a href="https://github.com/h
 
 **uri** - the uri of the node. i.e., the location
 
-**ex: http://hnet.iriscouch.com/0**
+**ex: http://hnet.iriscouch.com/public/0**
 
 ## Ex: 
 
