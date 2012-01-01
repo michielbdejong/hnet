@@ -1,3 +1,4 @@
+
 # hnet - an experimental decentralized and anonymous database
 
 ## hnet spreads small amounts of data across several non-traditional storage engines such as images, gists, pastebin, twitter streams, irc chat rooms, etc...
@@ -8,7 +9,30 @@
 
 # How does it work?
 
-*will add diagrams here*
+### A series of unknown hnet nodes exist in the cloud
+
+<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/hnet-client.png"></img>
+
+### You connect to any number of "known" nodes
+
+<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/top-level-nodes.png"></img>
+
+### These nodes return data and arbitrary JSON-RPC commands
+
+<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/client-query-node.png"></img>
+
+### Optionally, JSON-RPC commands are executed
+<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/JSON-RPC-Commands.png"></img>
+
+### Client receives data from many nodes
+<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/client-many-nodes.png"></img>
+
+### Circular node linking is supported through a TTL ( Time to Live )
+<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/circular-propigations.png"></img>
+
+### Hnet saves will always create a new node, and link back
+<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/saving-data.png"></img>
+
 
 # Usage
 
