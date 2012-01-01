@@ -1,7 +1,7 @@
 var Hnet = require('../lib/hnet').Hnet;
 
 var hnet = new Hnet({
-  circularDelay: 5000
+  ttl: 5000
 });
 
 hnet.on('node', function (node, data, options) {
