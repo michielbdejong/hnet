@@ -8,63 +8,56 @@
 
 # How does it work?
 
-*hnet uses couchiris at top*
+*will add diagrams here*
 
-*img of db layout*
+# Usage
 
-*another img of client getting data*
+For now, see examples: https://github.com/Marak/hnet/tree/master/example
 
-*description of data format*
+## hnet protocol is JSON
 
-*basic linking*
-
-*basic circular dep linking*
-
-
-## hnet protocol
-
-**arbitrary data**
+**Supports arbitrary data**
 
 ```
-{ "foo": "bar", "tar": "val" }
-{ "foo": "boo", "something": ["a","b","c"] }
-{ "foo": "bar", "tar": "val" }
+[
+  { "foo": "bar", "tar": "val" },
+  { "foo": "boo", "something": ["a","b","c"] },
+  { "foo": "bar", "tar": "val" },
+]
 ```
 
-**JSON-RPC commands**
+**Supports JSON-RPC commands**
 
-`hnet` supports JSON-RPC. 
+`hnet` **optionally** supports JSON-RPC commands.
 
 ```
-{ "foo": "boo", "something": ["a","b","c"] }
-{ "method": "link", params: [ { "type": "couch", "uri": "http://hnet.iriscouch.com/public/0"} ] }
-{ "method": "link", params: [ { "type": "gist",  "uri": "http://hnet.iriscouch.com/public/0"}, "cypher":"CaesarZalgo" ] }
-{ "foo": "bar", "tar": "val" }
+[
+  { "foo": "boo", "something": ["a","b","c"] },
+  { "method": "link", params: [ { "type": "couch", "uri": "http://hnet.iriscouch.com/public/0"} ] },
+  { "method": "link", params: [ { "type": "gist",  "uri": "http://hnet.iriscouch.com/public/0"} ] },
+  { "foo": "bar", "tar": "val" }
+]
 ```
 
-## hnet protocol methods
+# hnet protocol JSON-RPC methods
 
-### link
-#### params: type, uri
+### method: link
+### params: type, uri
 
-**the link method indicates that we should lazily link this document from a remote dataset**
+*the link method indicates that we should lazily link this document from a remote dataset*
 
-## hnet protocol params
+**type** - the type of dataset we are going to load
 
-### type
-#### the type of dataset we are going to load
+*ex: couch, gist, imgur, irc, etc..*
 
-**ex: couch, gist, imgur, irc, etc..**
-
-### uri
-#### the uri of the dataet. i.e., the location
+**uri** - the uri of the node. i.e., the location
 
 **ex: http://hnet.iriscouch.com/0**
 
-### cypher ( optional )
-#### the cryptology cypher the dataset is encoded in
+## Ex: 
 
-**ex: CaesarZalgo**
+    { "method": "link", params: [ { "type": "couch", "uri": "http://hnet.iriscouch.com/public/0"} ] },
+
 
 
 # TODO:
