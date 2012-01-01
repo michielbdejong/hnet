@@ -8,40 +8,40 @@
 
 # How does it work?
 
-<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/hnet-client.png"></img>
+<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/hnet-client.png"></img>
 
 ### A series of unknown hnet nodes exist in the cloud
 
-<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/top-level-nodes.png"></img>
+<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/top-level-nodes.png"></img>
 
 ### You connect to any number of "known" nodes
 
-<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/client-query-node.png"></img>
+<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/client-query-node.png"></img>
 
 ### These nodes return data and arbitrary JSON-RPC commands
 
-<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/JSON-RPC-Commands.png"></img>
+<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/JSON-RPC-Commands.png"></img>
 
 ### Optionally, JSON-RPC commands are executed
 
-<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/client-many-nodes.png"></img>
+<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/client-many-nodes.png"></img>
 
 
 ### Client receives data from many nodes
 
-<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/circular-propigation.png"></img>
+<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/circular-propigation.png"></img>
 
 ### Circular node linking is supported through a TTL ( Time To Live )
 
-<img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/saving-data.png"></img>
+<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/saving-data.png"></img>
 
 ### Saving data creates a new node that links back to at least two existing nodes
 
 # Usage
 
-For now, you can find many examples of usage here: <a href="https://github.com/Marak/hnet/tree/master/examples/sample-hnet-application/server.js">hnet api examples</a>
+For now, you can find many examples of usage here: <a href="https://github.com/hookio/hnet/tree/master/examples/sample-hnet-application/server.js">hnet api examples</a>
 
-<a href="https://github.com/Marak/hnet/tree/master/examples/sample-hnet-application/server.js">There is also a basic http server example which will response to http requests with `hnet` data</a>
+<a href="https://github.com/hookio/hnet/tree/master/examples/sample-hnet-application/server.js">There is also a basic http server example which will response to http requests with `hnet` data</a>
 
 ## the hnet protocol is JSON
 
