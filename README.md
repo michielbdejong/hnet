@@ -37,14 +37,15 @@
 
 <img src="https://github.com/Marak/hnet/raw/master/diagrams/hnet1/saving-data.png"></img>
 
-### Hnet saves will always create a new node, and link back
-
+### Hnet saves will always create a new node and link back to at least two nodes
 
 # Usage
 
 For now, see examples: https://github.com/Marak/hnet/tree/master/example
 
-## hnet protocol is JSON
+<a href="https://github.com/Marak/hnet/tree/master/example/sample-hnet-application/server.js">There is also a basic http server example which will response to http requests with `hnet` data</a>
+
+## the hnet protocol is JSON
 
 **Supports arbitrary data**
 
