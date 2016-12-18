@@ -10,37 +10,37 @@
 
 ### A series of unknown hnet nodes exist in the cloud
 
-<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/hnet-client.png"></img>
+![](diagrams/hnet1/hnet-client.png)
 
 ### You connect to any number of "known" nodes
 
-<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/top-level-nodes.png"></img>
+![](diagrams/hnet1/top-level-nodes.png)
 
 ### These nodes return data and arbitrary JSON-RPC commands
 
-<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/client-query-node.png"></img>
+![](diagrams/hnet1/client-query-node.png)
 
 ### Optionally, JSON-RPC commands are executed
 
-<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/JSON-RPC-Commands.png"></img>
+![](diagrams/hnet1/JSON-RPC-Commands.png)
 
 ### Client receives data from many nodes
 
-<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/client-many-nodes.png"></img>
+![](diagrams/hnet1/client-many-nodes.png)
 
 ### Circular node linking is supported through a TTL ( Time To Live )
 
-<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/circular-propigation.png"></img>
+![](diagrams/hnet1/circular-propigation.png)
 
 ### Saving data creates a new node that links back to at least two existing nodes
 
-<img src="https://github.com/hookio/hnet/raw/master/diagrams/hnet1/saving-data.png"></img>
+![](diagrams/hnet1/saving-data.png)
 
 # Usage
 
-For now, you can find many examples of usage here: <a href="https://github.com/hookio/hnet/tree/master/examples/">hnet api examples</a>
+For now, you can find many examples of usage here: [hnet api examples](examples/)
 
-<a href="https://github.com/hookio/hnet/tree/master/examples/sample-hnet-application/server.js">There is also a basic http server example which will response to http requests with `hnet` data</a>
+[There is also a basic http server example which will response to http requests with `hnet` data](examples/sample-hnet-application/server.js)
 
 ## the hnet protocol is JSON
 
