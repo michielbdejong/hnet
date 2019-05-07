@@ -1,5 +1,7 @@
 # hnet - an experimental decentralized and anonymous database
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/michielbdejong/hnet.svg)](https://greenkeeper.io/)
+
 ## hnet spreads small amounts of data across several non-traditional storage engines such as images, gists, pastebin, twitter streams, irc chat rooms, etc...
 
 ## By design, it is not reliable, fast, or consistent. 
